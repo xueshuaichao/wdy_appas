@@ -1,0 +1,161 @@
+
+@import './variables';
+
+.btn{
+  cursor: pointer;
+
+  &:hover{
+    color: #2196f3;
+  }
+}
+
+
+
+
+
+//----
+.width100{
+  width: 100% !important;
+}
+
+.custom-table{
+  *{
+    font-weight: 400;
+  }
+
+  .ant-table-thead *{
+    color: @mainFontColor65;
+    background: @mainColorF1F1F5;
+  }
+
+  .first-col{
+    color: @mainFontColor100;
+    font-weight: 500;
+  }
+
+  .ant-table-row:nth-child(even){
+    background: rgba(249,250,251,1);
+  }
+
+  .table-action{
+    display: inline-block;
+    margin-right: 56px;
+  }
+
+  .table-action:last-child{
+    margin-right: 0px;
+  }
+  .ant-table-column-title{
+    text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
+.custom-form{
+  .ant-form-item-label > label{
+    color: rgba(51,54,103,0.85);
+  }
+
+  .ant-form-item{
+    margin-bottom: 12px;
+  }
+
+  .custom-form-item{
+    margin-bottom: 12px;
+  }
+
+  .custom-textarea{
+    height: 128px;
+  }
+
+  .custom-err-msg{
+    color: #f5222d
+  }
+
+  .custom-err-item,.custom-err-item:hover{
+    border-color: #f5222d;
+    background-color: #fff;
+  }
+
+  textarea{
+    resize: none;
+  }
+}
+
+//自动移滚动条样式
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 1em;
+  background-color: rgba(50,50,50,.3);
+}
+::-webkit-scrollbar-track{
+  border-radius: 1em;
+  background-color: rgba(50,50,50,.1);
+}
+.modal-box {
+  .ant-modal-header {
+      background: #F5F7FA;
+      height: 64px;
+      padding: 20px 48px;
+  }
+  .ant-modal-body {
+      padding: 32px 48px 20px;
+  }
+  .footer {
+      display: flex;
+      justify-content: center;
+  }
+  .ant-form-item-label label {
+      color: @modalFontColor85;
+  }
+  .select_img {
+      width: 20px;
+      height: 20px;
+  }
+  .ant-select-selection-selected-value{
+      padding-top: 4px;
+  }
+}
+.confirm-modal {
+  color: #2B333B;
+  .ant-modal-title {
+    text-align: center;
+    font-weight: 500;
+  }
+  .ant-modal-header {
+    border: none
+  }
+  .ant-modal-footer {
+    border: none;
+    padding-bottom: 32px;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  .ant-modal-body {
+    text-align: center;
+  }
+}
+
+//表达式组件在filedConfig中对应的偏移值
+.express-component-in-field-config{
+  padding-left: 53px !important;
+  padding-right: 18px !important;
+}
+
+.express-component-in-field-config-help{
+  position: relative !important;
+  left:-10px !important;
+  top:18px !important;
+}
+.hide-required {
+  .ant-form-item-required::before{
+      content: '',
+  }
+}

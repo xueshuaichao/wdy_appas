@@ -1,0 +1,198 @@
+/*!
+* editor_public v0.0.1
+* 2018-04-02
+*/
+
+.mce-content-body {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #515a6e;
+    outline: none;
+    word-wrap: break-word;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+}
+
+.mce-content-body img {
+    max-width: 100%;
+}
+
+.mce-content-body > :first-child {
+    margin-top: 0 !important;
+}
+.mce-content-body a {
+    color: #268fff;
+    text-decoration: none;
+    word-break: break-all;
+}
+.mce-content-body a:visited {
+    color: #268fff;
+}
+.mce-content-body a:hover {
+    color: #268fff;
+}
+.mce-content-body a:active {
+    color: #268fff;
+}
+.mce-content-body a:hover,
+.mce-content-body a:active {
+    outline: 0;
+}
+.mce-content-body ul, 
+.mce-content-body ol, 
+.mce-content-body dl, 
+.mce-content-body dd, 
+.mce-content-body p, 
+.mce-content-body form, 
+.mce-content-body fieldset,
+.mce-content-body legend,
+.mce-content-body input,
+.mce-content-body textarea,
+.mce-content-body select,
+.mce-content-body button,
+.mce-content-body th,
+.mce-content-body td,
+.mce-content-body h1,
+.mce-content-body h2,
+.mce-content-body h3,
+.mce-content-body h4,
+.mce-content-body h5,
+.mce-content-body h6 {
+    /* font-weight: normal; */
+    margin: 0;
+    padding:0;
+}
+.mce-content-body h1 {
+    font-size: 24px;
+}
+.mce-content-body h2 {
+    font-size: 22px;
+}
+.mce-content-body h3 {
+    font-size: 20px;
+}
+.mce-content-body h4 {
+    font-size: 18px;
+}
+.mce-content-body h5 {
+    font-size: 16px;
+}
+.mce-content-body h6 {
+    font-size: 16px;
+}
+.mce-content-body p {
+    word-wrap: break-word;
+    /* margin: 0 0 12px 0; */
+    word-wrap: break-word;
+}
+.mce-content-body b,
+.mce-content-body strong {
+    font-weight: bold;
+}
+.mce-content-body i,
+.mce-content-body em {
+    font-style: italic;
+}
+.mce-content-body u {
+    text-decoration: underline;
+}
+.mce-content-body strike,
+.mce-content-body del {
+    text-decoration: line-through;
+}
+.mce-content-body ul,
+.mce-content-body ol {
+    list-style: disc outside none;
+    margin: 15px 0;
+    padding: 0 0 0 40px;
+    line-height: 1.5;
+}
+.mce-content-body li {
+    list-style: inherit;
+}
+.mce-content-body ul ul,
+.mce-content-body ul ol,
+.mce-content-body ol ul,
+.mce-content-body ol ol {
+    padding-left: 30px;
+}
+.mce-content-body ul ul,
+.mce-content-body ol ul {
+    list-style: circle outside none;
+}
+.mce-content-body ul ul ul,
+.mce-content-body ol ul ul {
+    list-style: square outside none;
+}
+.mce-content-body ol {
+    list-style: decimal;
+}
+.mce-content-body blockquote {
+    border-left: 6px solid #ddd;
+    padding: 5px 0 5px 10px;
+    margin: 15px 0 15px 15px;
+}
+.mce-content-body blockquote > :first-child {
+    margin-top: 0;
+}
+.mce-content-body code {
+    display: inline-block;
+    padding: 0 4px;
+    margin: 0 5px;
+    background: #eeeeee;
+    border-radius: 3px;
+}
+.mce-content-body pre {
+    padding: 10px 5px 10px 10px;
+    margin: 15px 0;
+    display: block;
+    line-height: 18px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+}
+.mce-content-body pre code {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border-radius: 0;
+}
+.mce-content-body hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 0;
+}
+.mce-content-body table {
+    width: 100%;
+    /* table-layout: fixed; */
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 15px 0;
+}
+.mce-content-body table thead {
+    background-color: #f9f9f9;
+}
+.mce-content-body table td,
+.mce-content-body table th {
+    min-width: 40px;
+    height: 30px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    padding: 2px 4px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.mce-content-body table td.active,
+.mce-content-body table th.active {
+    background-color: #ffffee;
+}
+.mce-content-body img {
+    max-width: 100%;
+    height: auto!important;
+}
